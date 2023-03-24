@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-shadow: 2 px 2px gray;
+}
+.top {
+    display: flex;
+    margin: 2em;
+}
+
+.myslides {
+    display: none;
+}
+
+.nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    size: 19px;
+    cursor: pointer;
+    background-color: rgb(39, 168, 168);
+}
+
+li {
+    font-size: 22px;
+    font-weight: bold;
+    color: cadetblue;
+    border-radius: inherit;
+}
+
+.p {
+    border: 2pt solid black;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+
+
+.backround {
+    background: rgb(39, 168, 168);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.nav_list {
+    width: 70%;
+    display: flex;
+    text-shadow: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+}
+
+.logo {
+    width: 200px;
+    border-radius: 60px;
+    color: beige;
+    text-align: left;  
+}
+
+.logo img {
+    width: 180px;
+    border-radius: 26px 30px;
+    color: blue;
+}
+
+.nav_list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav_list li a:hover {
+    color: gray;
+}
+
+head {
+    background-color: black;
+}
+
+.rightNav {
+    width: 30%;
+    text-align: right;
+}
+
+.slides {
+    width: 100%;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.firstsection {
+    height: 200px;
+    color: peru;
+
+}
+
+.secondsection {
+    background-color: rgb(39, 168, 168);
+    height: 200px;
+    color: beige;
+}
+
+
+.box-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf {
+    width: 70px;
+}
+
+.secondHalf {
+    width: 80%;
+    border: 4px pink;
+    border-radius: 200px;
+}
+
+.text-big {
+    font-size: 'Piazzolla', serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.text-small {
+    font-size: 18px;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+section {
+    padding: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: auto;
+}
+
+.section-Left {
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 0px 65px;
+    color: peru;
+}
+
+.thumbnail img {
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+
+.center {
+    text-align: center;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: teal;
+}
