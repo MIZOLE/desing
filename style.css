@@ -103,14 +103,17 @@ head {
 .firstsection {
     height: 200px;
     color: peru;
-
+    margin-top: 10em;
 }
 
 .secondsection {
     background-color: rgb(39, 168, 168);
     height: 200px;
     color: beige;
+    align-items: center;
+    justify-content: center;
 }
+
 
 
 .box-main {
@@ -119,15 +122,20 @@ head {
     flex-direction: column;
     justify-content: center;
 }
-
+/* 
 .secondhalf {
     width: 70px;
-}
+} */
 
 .secondHalf {
-    width: 80%;
+    height: 180%;
     border: 4px pink;
-    border-radius: 200px;
+    margin: auto;
+    margin-top: 10em;
+    margin-bottom: 5em;
+
+   
+
 }
 
 .text-big {

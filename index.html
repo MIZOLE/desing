@@ -33,13 +33,13 @@
 
         <ul class="nav_list">
             <li><a href="#web">Web Technology</a></li>
-            <li><a href="#web">C Programming</a></li>
-            <li><a href="#web">Avail. Courses</a></li>
+            <li><a href="#program">C Programming</a></li>
+            <li><a href="#java">Avail. Courses</a></li>
         </ul>
 
         <div class="rightNav">
-            <input type="text" name="search" id="search">
-            <button class="btn btn-sm"> Search</button>
+            <input type="text" name="search" id="search" value="">
+            <button onclick="greetMe()" class="btn btn-sm" id="btn">Greet me</button>
         </div>
     </nav>
 
@@ -50,10 +50,10 @@
 
 <body>
 
-    <section class="firstsection">
-        <div class="box-main">
+    <section class="firstsection" id="web">
+        <div class="box-main"  >
             <div class="firtsHalf">
-                <h1 class="text-big" id="web">
+                <h1 class="text-big">
                     Web Technology
                 </h1>
                 <p class="text-small">
@@ -75,12 +75,13 @@
 
 
         </div>
-
+<br>
+<br>
     </section>
 
-    <section class="secondsection">
+    <section class="secondsection" id="program">
         <div class="box-main">
-            <div class="secondHalf">
+            <div class="secondHalf" >
                 <h1 class="text-big" id="program">
                     C Programming
                 </h1>
@@ -100,7 +101,7 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="java">
         <div class="paras">
             <h1 class="sectionSubTag text-big">Java</h1>
 
